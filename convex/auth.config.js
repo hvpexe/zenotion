@@ -1,7 +1,7 @@
 export default {
   providers: [
     {
-      domain: "https://up-gar-10.clerk.accounts.dev",
+      domain: process.env.CLERK_ISSUER_DOMAIN,
       applicationID: "convex",
     },
   ],
