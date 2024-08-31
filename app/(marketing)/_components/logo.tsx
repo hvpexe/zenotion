@@ -12,14 +12,14 @@ export default function Logo() {
         height={40}
         width={40}
         alt="logo"
-        className="dark:hidden w-auto h-auto"
+        className="dark:hidden w-10 h-10"
       />
       <Image
         src={"/logo-dark.svg"}
         height={40}
         width={40}
         alt="logo"
-        className="hidden dark:block w-auto h-auto"
+        className="hidden dark:block w-10 h-10"
       />
       <p className={cn("font-semibold", font.className)}>Zenotion</p>
     </div>
